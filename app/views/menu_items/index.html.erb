@@ -1,0 +1,18 @@
+<main class = "MainPage">
+      <h1 class = "MenuBar"> Menu list ! </h1>
+
+        <% MenuItem.all.each do |item| %>
+            <section class = "MenuList">
+                <p class = "ItemName"><%= item.name %> </p>
+                <p class = "ItemDescription"><%= item.description %> </p>
+                <p class = "ItemPirce"> Rs.<%= item.price %> </p>
+                <button type="button"
+                  <% # onclick="alert('Hello world!')" %>
+                  class = "AddButton"
+                  >Add</button>
+
+            </section>
+
+      <% end %>
+
+ </main>

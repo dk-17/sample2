@@ -1,0 +1,44 @@
+.body{
+   max-width: 500px;
+   margin-left: 750px;
+   margin-top:60px;
+
+}
+.MainPage{
+  max-width: 500px;
+  margin-left: 500px;
+  padding:8px;
+}
+.AddButton{
+  font-size: 20px;
+  padding:8px;
+  background-color: green;
+  border:0;
+  border-radius: 8px;
+}
+.MenuBar{
+  font-size: 20px;
+  color:rgb(18, 66, 18);
+
+}
+.MenuList{
+  padding: 10px;
+  margin-bottom: 10px;
+   font-size: 20px;
+   background-color: rgb(198, 205, 211);
+   border-radius: 8px;
+
+}
+.ItemName{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.ItemDescription{
+  font-size: 15px;
+  color: rgb(80, 75, 75);
+
+}
+.ItemPrice{
+  font-size: 15px;
+  color: black;
+}
